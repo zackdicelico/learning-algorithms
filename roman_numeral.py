@@ -73,8 +73,18 @@ def half_double(a,b):
 
 # to use with roman numeral converter, we would do something like this
 # CXXV * XXXVII
-first = roman_to_arabic('CXXV')
-second = roman_to_arabic('XXXVII')
-half_double(first, second)
+
+def multiply_roman_numerals(first, second):
+	half_double(roman_to_arabic(first), roman_to_arabic(second))
+
+multiply_roman_numerals('CXXV', 'XXXVII')
+
+"""
+Couple of to-do items might be:
+	1. Implement roman numeral shorthand support
+	2. Implement an arabic numeral to roman numeral converter
+	3. Update half_double to support a list of factors to multiply together
+	4. Update roman numeral converter to support a list of roman numerals to convert
+"""
 
 
