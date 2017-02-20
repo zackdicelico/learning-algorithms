@@ -85,6 +85,9 @@ Couple of to-do items might be:
 	2. Implement an arabic numeral to roman numeral converter
 	3. Update half_double to support a list of factors to multiply together
 	4. Update roman numeral converter to support a list of roman numerals to convert
+	5. Implement division using the half & double algorithm
+	6. Implement addition of roman numerals (sum)
+	7. Implement subtraction of roman numerals
 """
 
 
